@@ -1,0 +1,239 @@
+body{
+    overflow-x: hidden;
+    /* height: 2000px; */
+}
+.navbar{
+    background: linear-gradient(90deg, #755EFC 0%, #0F0151 40%);
+    height: 100px;
+}
+
+#login{
+    background-color: #755EFC;
+}
+#search{
+    background-color: #261D62;
+    border: none !important;
+    color: #FFFFFF;
+}
+
+#search::placeholder{
+    color: #FFFFFF;
+}
+
+.name-website{
+    font-size: 1.3rem;
+    color: #FFFFFF;
+}
+
+#asidebar{
+    height: 70vh;
+    background: #FFFFFF;
+    box-shadow: 8px 11px 29px #7D8A9826;
+    position: relative;
+}
+
+#icon_aside{
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: -26px;
+    width: 26px;
+    height: 50px;
+    border-radius: 0 2.50px 2.50px 0;
+}
+#icon_aside_mobile{
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    left: -12px;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 2.50px 2.50px 0;
+    z-index: 2;
+}
+
+.nav-link{
+    color: #2C3C65 !important;
+}
+
+#home{
+    background: #755EFC1A;
+    padding-right: 10vh;
+}
+
+.community{
+    color: #9CA9CC;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    position: relative;
+    left: -60px;
+}
+
+#activity, #members , #groups,
+#forums, #docs{
+    padding-right: 10vh;
+    transition: 0.3s;
+}
+
+#activity:hover, #members:hover , #groups:hover,
+#forums:hover, #docs:hover{
+    background: #755EFC1A;
+}
+
+#social{
+    color: #2C3C65;
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    line-height: 56px !important;
+    word-wrap: break-word !important;
+}
+
+#bg_post{
+    border: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 8px 11px 29px #7D8A9826;
+}
+
+#project-tital{
+    color: #2C3C65;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    text-decoration: underline !important;
+    line-height: 34.98px !important;
+    word-wrap: break-word !important;
+}
+
+#date-project, #data-project{
+    color: #45557D;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 30px !important;
+    word-wrap: break-word !important;
+}
+
+
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: #D4DBEE;
+}
+
+#contain_img_name{
+    margin-top: 3%;
+    margin-bottom: 7%;
+}
+
+#img-profile{
+    width: 20%;
+    height: 20%;
+}
+
+#name-user{
+    color: #2C3C65;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media (min-width:614px) and (max-width: 768px){
+    svg{
+        width: 90%;
+    }
+    .name-website{
+        font-size: 95%;
+        color: #FFFFFF;
+    }
+    #login{
+        font-size: 60%;
+    }
+    #search{
+        width: 60% !important;
+        height:60% !important;
+    }
+}
+
+@media (max-width: 614px){
+    svg{
+        width: 60%;
+    }
+    .name-website{
+        font-size: 70%;
+        color: #FFFFFF;
+    }
+    #login{
+        font-size: 50%;
+    }
+    #search{
+        width: 50% !important;
+        height:50% !important;
+    }
+    #search::placeholder{
+        font-size: small;
+    }
+}
+
+@media (max-width: 390px){
+    svg{
+        width: 60%;
+    }
+    #login{
+        font-size: 50%;
+    }
+    #search{
+        width: 50% !important;
+        height:50% !important;
+    }
+    #search::placeholder{
+        font-size: small;
+    }
+    #form-mboile{
+        width: 226px;
+    }
+}
+
+@media (min-width: 513px) and (max-width: 767px){
+    
+    #asidebar{
+        width: 35%;
+    }
+}
+
+@media (min-width: 378px) and (max-width: 512px){
+    
+    #asidebar{
+        width: 50%;
+    }
+}
+
+@media (max-width: 378px){
+
+    #home{
+        background: #755EFC1A;
+        margin-left: 25%;
+        padding-right: 20vh;
+    }
+
+    #activity, #members , #groups,
+    #forums, #docs{
+        padding-right: 20vh;
+        margin-left: 25%;
+        transition: 0.3s;
+    }
+    
+    #activity:hover, #members:hover , #groups:hover,
+    #forums:hover, #docs:hover{
+        background: #755EFC1A;
+    }
+    
+    #asidebar{
+        width: 90%;
+    }
+}
